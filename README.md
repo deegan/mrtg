@@ -1,4 +1,4 @@
-# MRTG scrip av Hakan "linuxguden" Bjoerklund
+# MRTG script by Hakan "deegan" Bjoerklund
 
 Edit config to reflect your working enviroment.
 
