@@ -1,6 +1,6 @@
 <?php
 
-        $dir = ".";
+        $dir = "data/";
         $files = scandir($dir);
         echo "<pre>";
         for($i=0;$i<count($files);$i++)
