@@ -9,5 +9,5 @@ source hosts
 # Make index file
 for HOST in $HOSTS
 do
-	/usr/bin/indexmaker --columns=1 $DIRCFG/data/$HOST.cfg > $DIRHTML/data/$HOST/index.html
+	/usr/bin/indexmaker --columns=1 $DIRCFG/$HOST.cfg > $DIRHTML/data/$HOST/index.html
 done
