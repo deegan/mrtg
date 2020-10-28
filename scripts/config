@@ -1,5 +1,5 @@
 # path's needed for mrtg.
-MRTG_ROOT="/var/www/mrtg"
-DIRCFG="/var/www/mrtg/cfg"
-DIRHTML="/var/www/mrtg"
-CWD="/var/www/mrtg/scripts"
+MRTG_ROOT="/mrtg"
+DIRCFG="/mrtg/cfg"
+DIRHTML="/mrtg"
+CWD="/mrtg/scripts"
