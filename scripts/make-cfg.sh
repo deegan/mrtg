@@ -9,15 +9,15 @@ COMMUNITY="public"
 # Make configuration file
 for HOST in $HOSTS
 do
-	if [ ! -d $MRTG_ROOT/$HOST ]; then
+	if [ ! -d $MRTG_ROOT/data/$HOST ]; then
 		echo "Creating directory for host: $HOST";
-		mkdir $MRTG_ROOT/$HOST
+		mkdir -p $MRTG_ROOT/data/$HOST
 	fi
 	
 	if [ ! -f $MRTG_ROOT/cfg/$HOST.cfg ]; then
 		echo "Generating cfg for host: $HOST";
 		/usr/bin/cfgmaker \
-                --global 'WorkDir: '$MRTG_ROOT'/'$HOST \
+                --global 'WorkDir: '$MRTG_ROOT'/data/'$HOST \
                 --global 'Options[_]: bits,growright' \
                 --output $MRTG_ROOT/cfg/$HOST.cfg \
                 --ifref=name,descr \
