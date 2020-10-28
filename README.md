@@ -9,6 +9,9 @@ Edit config to reflect your working enviroment.
 5) ./update-mrtg.sh
 6) ./make-index.sh
 
+A one-liner.
+./make-cfg.sh ; ./update-host-cfg.sh ; ./start-mrtg.sh ; ./update-mrtg.sh ; ./make-index.sh
+
 Add update-mrtg.sh to crontab.
 
 # runs every 5minutes. with debug logging.
