@@ -1,5 +1,4 @@
 #!/bin/bash
 
 # host list, one on each line
-HOSTS="
-"
+HOSTS=$SNMP_HOSTS
