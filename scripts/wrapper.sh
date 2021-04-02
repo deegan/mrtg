@@ -4,4 +4,5 @@
 /mrtg/scripts/start-mrtg.sh
 /mrtg/scripts/update-mrtg.sh
 /mrtg/scripts/make-index.sh
+/mrtg/scripts/make-left.sh
 
